@@ -62,9 +62,10 @@ export default {
         padding-bottom: 100%;
     }
 
-    .img_1{background-image: url("../assets/five-assorted-color-cars-parked-inside-room-1231643.jpg");}
-    .img_2{background-image: url("../assets/photography-of-a-blue-mercedes-benz-5-door-hatchback-810357.jpg");}
-    .img_3{background-image: url("../assets/auto-car-cold-driving-376361.jpg");}
+
+    .img_1{background-image: url("../../assets/garage.jpg");}
+    .img_2{background-image: url("../../assets/merc.jpg");}
+    .img_3{background-image: url("../../assets/skoda.jpg");}
 
     h2{
         color: #363636;

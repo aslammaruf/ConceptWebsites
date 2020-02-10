@@ -9,7 +9,7 @@
               <li>top gear</li>
           </ul>
           <div class="content-author">
-            <img src="../assets/author.jpeg" />
+            <img src="@/assets/author.jpeg" />
             <div class="content">
               <h1>John Smith</h1>
               <h2>Head Editor</h2>

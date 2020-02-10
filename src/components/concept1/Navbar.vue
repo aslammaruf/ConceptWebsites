@@ -19,13 +19,13 @@
           </div>
         </div>
         <div class="headerimg">
-          <img class="image" src="../assets/headerimg.jpeg" />
+          <img class="image" src="@/assets/headerimg.jpeg"/>
           <div class="content-title">
             <h1>Enjoy the New Audi Coupe 2020</h1>
             <h2>January 29, 2020, 15:02 PM</h2>
           </div>
           <div class="content-author">
-            <img src="../assets/author.jpeg" />
+            <img src="@/assets/author.jpeg"/>
             <div class="content">
               <h1>John Smith</h1>
               <h2>Head Editor</h2>
@@ -48,9 +48,9 @@ export default {
 }
 
 .navbar-container{
-  padding: 2rem;
   display: grid;
   grid-template-columns: 20% 80%;
+  height: 15vh;
 
   .logo{
     svg{
@@ -76,12 +76,12 @@ export default {
 
 .headerimg{
   position: relative;
-  
+  height: calc(100vh - 15vh);
 
   .image{
     width: 100%;
     height: 100%;
-    object-fit: contain; 
+    object-fit: fill; 
   }
 
 }
